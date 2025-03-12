@@ -7,7 +7,6 @@ const setTime = setInterval(() => {
 
         if (count > 100) {
             clearInterval(setTime);
-            
         }
     
 }, 100);
