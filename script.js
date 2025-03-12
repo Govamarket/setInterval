@@ -7,6 +7,7 @@ const setTime = setInterval(() => {
 
         if (count > 100) {
             clearInterval(setTime);
+            alert('Stop limit-count')
         }
     
 }, 100);
